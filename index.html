@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text-to-Speech Website</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+    <header>
+        <h1>TTS Text To Speech</h1>
+    </header>
+    <main>
+        <div class="input-container">
+            <textarea id="input-text"  placeholder="Enter text to convert to speech"></textarea>
+            <div id="err"></div>
+            <button id="speak-button">Speak</button>
+        </div>
+        <div class="output-container">
+            <button id="stop-button">Stop</button>
+            <audio id="audio" controls></audio>
+        </div>
+    </main>
+    <footer>
+        <h1>by: Natnael Hailu</h1>
+    </footer>
+    <script src="scripts/script.js"></script>
+</body>
+</html>

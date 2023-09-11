@@ -1,0 +1,99 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e8fbfc;
+     background-image: url(../img/bgc.avif);
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+main {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 30px;
+   
+}
+
+.input-container {
+    margin-bottom: 20px;
+}
+
+textarea {
+   width: 100%;
+    padding: 10px;
+    height: 600px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: rgb(82, 82, 82);
+    max-width: 100%;
+    resize: none;
+}
+
+button {
+    padding: 20px 50px;
+    margin-top: 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:disabled {
+    background-color: #aaa;
+    cursor: not-allowed;
+}
+
+.output-container {
+    display: none;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+audio {
+    width: 100%;
+}
+footer{
+    margin-top: 400px;
+}
+footer h1{
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    textarea {
+   width: 100%;
+   height: 200px;
+   margin-left: -10px;
+}
+footer{
+    margin-top: 50px;
+}
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+        textarea {
+   width: 100%;
+   height: 500px;
+   margin-left: -10px;
+}
+footer{
+    margin-top: 50px;
+}
+}
